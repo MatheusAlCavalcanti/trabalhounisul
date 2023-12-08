@@ -1,0 +1,25 @@
+
+import java.util.Scanner;
+
+public class exercicios {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int a, b;
+		double c,d,e;
+		d = 3.14159;	
+		a =sc.nextInt();
+		c = Math.pow(a, 2);
+		e = a*c;
+		
+		System.out.printf("REsultado: %.2f", e);	
+		
+		
+		sc.close();
+	}
+
+}

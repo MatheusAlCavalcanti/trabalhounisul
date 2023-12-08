@@ -1,0 +1,31 @@
+
+import java.util.Scanner;
+
+public class exercicios {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int a;
+		System.out.println("digite o número do funcionário");
+		a=sc.nextInt();
+		
+		double b,c,d;
+		System.out.println("Digite as horas trabalhadas: ");
+		b = sc.nextDouble();
+		
+		System.out.println("Valora da hora trabalhada");
+		c = sc.nextDouble();
+		
+		d = b* c;
+		
+		System.out.println("NUMBER: "+a);
+		System.out.println("SALARY: "+d);
+		
+		sc.close();
+	}
+
+}

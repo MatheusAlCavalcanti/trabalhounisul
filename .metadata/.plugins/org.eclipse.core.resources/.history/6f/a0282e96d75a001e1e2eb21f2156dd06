@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Exercicio1 {
+	
+	int cont;
+	char palavra;
+	
+	public static void main(String[] args) {
+		AUT AUTOMATO = new AUT();
+		String setenca;
+		
+		Scanner sc = new Scanner(System.in);
+		setenca = sc.nextLine();
+		
+;
+		
+	}
+
+}

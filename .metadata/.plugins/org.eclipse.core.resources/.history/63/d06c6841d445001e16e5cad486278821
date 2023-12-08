@@ -1,0 +1,23 @@
+
+import java.util.Scanner;
+
+public class exercicios {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String a, b,c;
+		System.out.printf("Numero da peça, ");
+		a=sc.nextLine();
+		b=sc.nextLine();
+		c=sc.nextLine();
+		
+		System.out.println(a);
+		
+		sc.close();
+	}
+
+}
